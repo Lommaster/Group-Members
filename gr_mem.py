@@ -108,7 +108,6 @@ def all_policy_groups():
                     worksheet.write(row, 1, item_group["ipv4-address"])
                 if item_group["type"] == "group":
                     worksheet.write(row, 0, item_group["name"])
-                    #worksheet.write(row, 1, "")
                     
                 row += 1
                 
